@@ -24,6 +24,8 @@ Lightkeeper is a desktop companion for Lighthouse Studio.
 
    <img src="https://raw.githubusercontent.com/jclot/lightkeeper-releases/master/images/windows-3-run-anyway.png" alt="Click More info, then Run anyway" width="600">
 
+   If there's no **Run anyway** button, your PC has *Smart App Control* turned on and won't let you install apps that aren't from a big software company. Ask IT to install Lightkeeper for you.
+
 5. Lightkeeper installs and opens by itself. From now on you'll find it in the Start menu.
 
 ### 🍎 Mac
@@ -54,6 +56,6 @@ Windows and macOS show them for any app that doesn't come from a big software co
 
 ### Good to know
 
-- **Which file do I need?** Just one: the `.exe` on Windows or the `.dmg` on a Mac. The other files are used by the automatic updates; you can ignore them.
+- **Which file do I need?** Just one: the `.exe` on Windows or the `.dmg` on a Mac. Ignore everything else: `latest.json`, the `.sig` and `.tar.gz` files are what Lightkeeper reads to update itself, and the two **Source code** links are added by GitHub to every release (they hold only this page's pictures, not the app).
 - **Updates are automatic.** When there's a new version, Lightkeeper installs it the next time you open it. If you're in the middle of something, it asks before restarting, so you never lose unsaved work. You can turn this off in **Me → Settings → Updates**.
 - **On a Mac**, everything that needs Lighthouse Studio (which only runs on Windows) isn't available.
